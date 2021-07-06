@@ -1,0 +1,221 @@
+body {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.left-site {
+  width: 50%;
+}
+.right-site {
+  width: 50%;
+}
+
+/*--------------- Manu css start ----------------*/
+.top-bg {
+  background-image: url(../img/shapes/Frame\ 59.jpg);
+  background-size: cover;
+}
+.manu {
+  text-align: center;
+}
+.manu ul {
+  list-style-type: none;
+}
+.manu ul li {
+  display: inline-block;
+  margin-right: 80px;
+}
+.manu ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 30px 0px;
+  display: block;
+  color: chocolate;
+}
+
+/*--------------------- Banner css start -------------------*/
+.sec-padding {
+  padding-bottom: 100px;
+}
+.left-content {
+  padding: 50px 0px;
+  padding-left: 125px;
+}
+.left-site h1 {
+  font-size: 44px;
+}
+.left-site h1 span {
+  color: #14d6d6;
+}
+.left-content p {
+  font-size: 18px;
+  color: #444;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.left-content a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #fb9341, #14d6d6);
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: #fb0404;
+}
+.right-bg img {
+  width: 80%;
+  margin-top: 50px;
+}
+
+/*--------------------- About css start --------------------*/
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left-site img {
+  margin-left: 95px;
+}
+.right-site h2 {
+  color: #707070;
+  font-size: 35px;
+}
+
+.right-site p {
+  font-size: 20px;
+  color: #000;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+.about-taxt {
+  padding-right: 100px;
+  margin-top: 140px;
+}
+.about-taxt a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(#fb9341, #14d6d6);
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: #fb0404;
+}
+
+/*------------------------ Service css start --------------------*/
+.service-part {
+  padding: 100px 95px;
+}
+.service-top {
+  text-align: center;
+}
+.single-service {
+  width: 33.33%;
+  margin: 0px 30px;
+  box-shadow: #ddd 1px 2px 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.food-img img {
+  width: 100%;
+}
+.service-top h2 {
+  font-size: 40px;
+  color: #676767;
+}
+
+.service-top p {
+  color: #676767;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.service-top {
+  padding: 0px 270px;
+}
+.food-text h4 {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.food-text p {
+  font-size: 17px;
+  color: #676767;
+}
+
+/*---------------------- Social part css start -------------------*/
+.single-social {
+  width: 33.33%;
+  text-align: center;
+}
+.social {
+  margin: 0px 125px;
+  box-shadow: #ddd 1px 2px 20px;
+  height: 160px;
+  border-radius: 15px;
+}
+.social-part {
+  padding-bottom: 100px;
+}
+
+.single-social h1 {
+  margin-top: 35px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.single-social p {
+  font-size: 20px;
+  color: #444;
+}
+
+/*---------------------------- Contact css start ---------------------*/
+.contact-part {
+  padding: 100px 0px;
+  padding-left: 125px;
+  background: #121223;
+}
+.contact input {
+  display: block;
+  padding: 15px 10px;
+  width: 50%;
+  margin-bottom: 25px;
+}
+.contact h2 {
+  color: #fff;
+  font-size: 30px;
+}
+button.send {
+  padding: 10px 45px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 25px;
+  background: brown;
+  border: oldlace;
+}
+
+/*---------------------- Footer css start ----------------------*/
+.footer-part {
+  background: #0b0e17;
+  height: 150px;
+}
+.footer-text {
+  text-align: center;
+}
+
+.footer-text h2 {
+  color: #5b5b5b;
+  margin: 0;
+  padding-top: 40px;
+}
+.footer-text span {
+  color: #e46d07;
+}
+.footer-text p {
+  color: white;
+  font-size: 18px;
+}
